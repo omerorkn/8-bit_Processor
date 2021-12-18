@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_computer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_computer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1012920fs"></ZoomStartTime>
+      <ZoomEndTime time="1190121fs"></ZoomEndTime>
+      <Cursor1Time time="1210000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="118"></NameColumnWidth>
+      <ValueColumnWidth column_width="117"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="group304" type="group">
+      <obj_property name="label">computer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_computer/uut/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_00" type="array">
+         <obj_property name="ElementShortName">port_in_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_00[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_01" type="array">
+         <obj_property name="ElementShortName">port_in_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_01[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_02" type="array">
+         <obj_property name="ElementShortName">port_in_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_02[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_03" type="array">
+         <obj_property name="ElementShortName">port_in_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_04" type="array">
+         <obj_property name="ElementShortName">port_in_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_05" type="array">
+         <obj_property name="ElementShortName">port_in_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_06" type="array">
+         <obj_property name="ElementShortName">port_in_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_07" type="array">
+         <obj_property name="ElementShortName">port_in_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_08" type="array">
+         <obj_property name="ElementShortName">port_in_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_09" type="array">
+         <obj_property name="ElementShortName">port_in_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_10" type="array">
+         <obj_property name="ElementShortName">port_in_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_11" type="array">
+         <obj_property name="ElementShortName">port_in_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_12" type="array">
+         <obj_property name="ElementShortName">port_in_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_13" type="array">
+         <obj_property name="ElementShortName">port_in_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_14" type="array">
+         <obj_property name="ElementShortName">port_in_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_in_15" type="array">
+         <obj_property name="ElementShortName">port_in_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_00" type="array">
+         <obj_property name="ElementShortName">port_out_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_00[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_01" type="array">
+         <obj_property name="ElementShortName">port_out_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_01[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_02" type="array">
+         <obj_property name="ElementShortName">port_out_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_02[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_03" type="array">
+         <obj_property name="ElementShortName">port_out_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_04" type="array">
+         <obj_property name="ElementShortName">port_out_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_05" type="array">
+         <obj_property name="ElementShortName">port_out_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_06" type="array">
+         <obj_property name="ElementShortName">port_out_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_07" type="array">
+         <obj_property name="ElementShortName">port_out_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_08" type="array">
+         <obj_property name="ElementShortName">port_out_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_09" type="array">
+         <obj_property name="ElementShortName">port_out_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_10" type="array">
+         <obj_property name="ElementShortName">port_out_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_11" type="array">
+         <obj_property name="ElementShortName">port_out_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_12" type="array">
+         <obj_property name="ElementShortName">port_out_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_13" type="array">
+         <obj_property name="ElementShortName">port_out_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_14" type="array">
+         <obj_property name="ElementShortName">port_out_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/port_out_15" type="array">
+         <obj_property name="ElementShortName">port_out_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/write_en" type="logic">
+         <obj_property name="ElementShortName">write_en</obj_property>
+         <obj_property name="ObjectShortName">write_en</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group165" type="group">
+      <obj_property name="label">CPU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/from_memory" type="array">
+         <obj_property name="ElementShortName">from_memory[7:0]</obj_property>
+         <obj_property name="ObjectShortName">from_memory[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/to_memory" type="array">
+         <obj_property name="ElementShortName">to_memory[7:0]</obj_property>
+         <obj_property name="ObjectShortName">to_memory[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/write_en" type="logic">
+         <obj_property name="ElementShortName">write_en</obj_property>
+         <obj_property name="ObjectShortName">write_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/IR_Load" type="logic">
+         <obj_property name="ElementShortName">IR_Load</obj_property>
+         <obj_property name="ObjectShortName">IR_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/IR" type="array">
+         <obj_property name="ElementShortName">IR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">IR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/MAR_Load" type="logic">
+         <obj_property name="ElementShortName">MAR_Load</obj_property>
+         <obj_property name="ObjectShortName">MAR_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/PC_Load" type="logic">
+         <obj_property name="ElementShortName">PC_Load</obj_property>
+         <obj_property name="ObjectShortName">PC_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/PC_Inc" type="logic">
+         <obj_property name="ElementShortName">PC_Inc</obj_property>
+         <obj_property name="ObjectShortName">PC_Inc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/A_Load" type="logic">
+         <obj_property name="ElementShortName">A_Load</obj_property>
+         <obj_property name="ObjectShortName">A_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/B_Load" type="logic">
+         <obj_property name="ElementShortName">B_Load</obj_property>
+         <obj_property name="ObjectShortName">B_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/ALU_Sel" type="array">
+         <obj_property name="ElementShortName">ALU_Sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_Sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/CCR_Load" type="logic">
+         <obj_property name="ElementShortName">CCR_Load</obj_property>
+         <obj_property name="ObjectShortName">CCR_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/CCR_Result" type="array">
+         <obj_property name="ElementShortName">CCR_Result[3:0]</obj_property>
+         <obj_property name="ObjectShortName">CCR_Result[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/BUS1_Sel" type="array">
+         <obj_property name="ElementShortName">BUS1_Sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS1_Sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/BUS2_Sel" type="array">
+         <obj_property name="ElementShortName">BUS2_Sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS2_Sel[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group114" type="group">
+      <obj_property name="label">control_unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/CCR_Result" type="array">
+         <obj_property name="ElementShortName">CCR_Result[3:0]</obj_property>
+         <obj_property name="ObjectShortName">CCR_Result[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/IR" type="array">
+         <obj_property name="ElementShortName">IR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">IR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/IR_Load" type="logic">
+         <obj_property name="ElementShortName">IR_Load</obj_property>
+         <obj_property name="ObjectShortName">IR_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/MAR_Load" type="logic">
+         <obj_property name="ElementShortName">MAR_Load</obj_property>
+         <obj_property name="ObjectShortName">MAR_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/PC_Load" type="logic">
+         <obj_property name="ElementShortName">PC_Load</obj_property>
+         <obj_property name="ObjectShortName">PC_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/PC_Inc" type="logic">
+         <obj_property name="ElementShortName">PC_Inc</obj_property>
+         <obj_property name="ObjectShortName">PC_Inc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/A_Load" type="logic">
+         <obj_property name="ElementShortName">A_Load</obj_property>
+         <obj_property name="ObjectShortName">A_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/B_Load" type="logic">
+         <obj_property name="ElementShortName">B_Load</obj_property>
+         <obj_property name="ObjectShortName">B_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/ALU_Sel" type="array">
+         <obj_property name="ElementShortName">ALU_Sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_Sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/CCR_Load" type="logic">
+         <obj_property name="ElementShortName">CCR_Load</obj_property>
+         <obj_property name="ObjectShortName">CCR_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/BUS1_Sel" type="array">
+         <obj_property name="ElementShortName">BUS1_Sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS1_Sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/BUS2_Sel" type="array">
+         <obj_property name="ElementShortName">BUS2_Sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS2_Sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/write_en" type="logic">
+         <obj_property name="ElementShortName">write_en</obj_property>
+         <obj_property name="ObjectShortName">write_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/current_state" type="other">
+         <obj_property name="ElementShortName">current_state</obj_property>
+         <obj_property name="ObjectShortName">current_state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/control_unit_module/next_state" type="other">
+         <obj_property name="ElementShortName">next_state</obj_property>
+         <obj_property name="ObjectShortName">next_state</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group73" type="group">
+      <obj_property name="label">data_path</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/IR_Load" type="logic">
+         <obj_property name="ElementShortName">IR_Load</obj_property>
+         <obj_property name="ObjectShortName">IR_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/MAR_Load" type="logic">
+         <obj_property name="ElementShortName">MAR_Load</obj_property>
+         <obj_property name="ObjectShortName">MAR_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/PC_Load" type="logic">
+         <obj_property name="ElementShortName">PC_Load</obj_property>
+         <obj_property name="ObjectShortName">PC_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/PC_Inc" type="logic">
+         <obj_property name="ElementShortName">PC_Inc</obj_property>
+         <obj_property name="ObjectShortName">PC_Inc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/A_Load" type="logic">
+         <obj_property name="ElementShortName">A_Load</obj_property>
+         <obj_property name="ObjectShortName">A_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/B_Load" type="logic">
+         <obj_property name="ElementShortName">B_Load</obj_property>
+         <obj_property name="ObjectShortName">B_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/ALU_Sel" type="array">
+         <obj_property name="ElementShortName">ALU_Sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_Sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/CCR_Load" type="logic">
+         <obj_property name="ElementShortName">CCR_Load</obj_property>
+         <obj_property name="ObjectShortName">CCR_Load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/BUS1_Sel" type="array">
+         <obj_property name="ElementShortName">BUS1_Sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS1_Sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/BUS2_Sel" type="array">
+         <obj_property name="ElementShortName">BUS2_Sel[1:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS2_Sel[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/from_memory" type="array">
+         <obj_property name="ElementShortName">from_memory[7:0]</obj_property>
+         <obj_property name="ObjectShortName">from_memory[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/A_reg" type="array">
+         <obj_property name="ElementShortName">A_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">A_reg[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/B_reg" type="array">
+         <obj_property name="ElementShortName">B_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">B_reg[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/IR" type="array">
+         <obj_property name="ElementShortName">IR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">IR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/CCR_Result" type="array">
+         <obj_property name="ElementShortName">CCR_Result[3:0]</obj_property>
+         <obj_property name="ObjectShortName">CCR_Result[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/to_memory" type="array">
+         <obj_property name="ElementShortName">to_memory[7:0]</obj_property>
+         <obj_property name="ObjectShortName">to_memory[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/BUS1" type="array">
+         <obj_property name="ElementShortName">BUS1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/BUS2" type="array">
+         <obj_property name="ElementShortName">BUS2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BUS2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/ALU_result" type="array">
+         <obj_property name="ElementShortName">ALU_result[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_result[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/IR_reg" type="array">
+         <obj_property name="ElementShortName">IR_reg[7:0]</obj_property>
+         <obj_property name="ObjectShortName">IR_reg[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/MAR" type="array">
+         <obj_property name="ElementShortName">MAR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">MAR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/PC" type="array">
+         <obj_property name="ElementShortName">PC[7:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/CCR_in" type="array">
+         <obj_property name="ElementShortName">CCR_in[3:0]</obj_property>
+         <obj_property name="ObjectShortName">CCR_in[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/CCR" type="array">
+         <obj_property name="ElementShortName">CCR[3:0]</obj_property>
+         <obj_property name="ObjectShortName">CCR[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group45" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/ALU_U/A" type="array">
+         <obj_property name="ElementShortName">A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">A[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/ALU_U/B" type="array">
+         <obj_property name="ElementShortName">B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/ALU_U/ALU_Sel" type="array">
+         <obj_property name="ElementShortName">ALU_Sel[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_Sel[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/ALU_U/NZVC" type="array">
+         <obj_property name="ElementShortName">NZVC[3:0]</obj_property>
+         <obj_property name="ObjectShortName">NZVC[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/ALU_U/ALU_result" type="array">
+         <obj_property name="ElementShortName">ALU_result[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_result[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/ALU_U/sum_unsigned" type="array">
+         <obj_property name="ElementShortName">sum_unsigned[8:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_unsigned[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/ALU_U/alu_signal" type="array">
+         <obj_property name="ElementShortName">alu_signal[7:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_signal[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/ALU_U/toplama_overflow" type="logic">
+         <obj_property name="ElementShortName">toplama_overflow</obj_property>
+         <obj_property name="ObjectShortName">toplama_overflow</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/cpu_module/data_path_module/ALU_U/cikarma_overflow" type="logic">
+         <obj_property name="ElementShortName">cikarma_overflow</obj_property>
+         <obj_property name="ObjectShortName">cikarma_overflow</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group265" type="group">
+      <obj_property name="label">memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_computer/uut/memory_module/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/write_en" type="logic">
+         <obj_property name="ElementShortName">write_en</obj_property>
+         <obj_property name="ObjectShortName">write_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_00" type="array">
+         <obj_property name="ElementShortName">port_in_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_00[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_01" type="array">
+         <obj_property name="ElementShortName">port_in_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_01[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_02" type="array">
+         <obj_property name="ElementShortName">port_in_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_02[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_03" type="array">
+         <obj_property name="ElementShortName">port_in_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_04" type="array">
+         <obj_property name="ElementShortName">port_in_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_05" type="array">
+         <obj_property name="ElementShortName">port_in_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_06" type="array">
+         <obj_property name="ElementShortName">port_in_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_07" type="array">
+         <obj_property name="ElementShortName">port_in_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_08" type="array">
+         <obj_property name="ElementShortName">port_in_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_09" type="array">
+         <obj_property name="ElementShortName">port_in_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_10" type="array">
+         <obj_property name="ElementShortName">port_in_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_11" type="array">
+         <obj_property name="ElementShortName">port_in_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_12" type="array">
+         <obj_property name="ElementShortName">port_in_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_13" type="array">
+         <obj_property name="ElementShortName">port_in_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_14" type="array">
+         <obj_property name="ElementShortName">port_in_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_in_15" type="array">
+         <obj_property name="ElementShortName">port_in_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_in_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_00" type="array">
+         <obj_property name="ElementShortName">port_out_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_00[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_01" type="array">
+         <obj_property name="ElementShortName">port_out_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_01[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_02" type="array">
+         <obj_property name="ElementShortName">port_out_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_02[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_03" type="array">
+         <obj_property name="ElementShortName">port_out_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_04" type="array">
+         <obj_property name="ElementShortName">port_out_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_05" type="array">
+         <obj_property name="ElementShortName">port_out_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_06" type="array">
+         <obj_property name="ElementShortName">port_out_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_07" type="array">
+         <obj_property name="ElementShortName">port_out_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_08" type="array">
+         <obj_property name="ElementShortName">port_out_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_09" type="array">
+         <obj_property name="ElementShortName">port_out_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_10" type="array">
+         <obj_property name="ElementShortName">port_out_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_11" type="array">
+         <obj_property name="ElementShortName">port_out_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_12" type="array">
+         <obj_property name="ElementShortName">port_out_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_13" type="array">
+         <obj_property name="ElementShortName">port_out_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_14" type="array">
+         <obj_property name="ElementShortName">port_out_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/port_out_15" type="array">
+         <obj_property name="ElementShortName">port_out_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/rom_out" type="array">
+         <obj_property name="ElementShortName">rom_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rom_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ram_out" type="array">
+         <obj_property name="ElementShortName">ram_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ram_out[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group187" type="group">
+      <obj_property name="label">output_ports</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/write_en" type="logic">
+         <obj_property name="ElementShortName">write_en</obj_property>
+         <obj_property name="ObjectShortName">write_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_00" type="array">
+         <obj_property name="ElementShortName">port_out_00[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_00[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_01" type="array">
+         <obj_property name="ElementShortName">port_out_01[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_01[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_02" type="array">
+         <obj_property name="ElementShortName">port_out_02[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_02[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_03" type="array">
+         <obj_property name="ElementShortName">port_out_03[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_03[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_04" type="array">
+         <obj_property name="ElementShortName">port_out_04[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_04[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_05" type="array">
+         <obj_property name="ElementShortName">port_out_05[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_05[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_06" type="array">
+         <obj_property name="ElementShortName">port_out_06[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_06[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_07" type="array">
+         <obj_property name="ElementShortName">port_out_07[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_07[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_08" type="array">
+         <obj_property name="ElementShortName">port_out_08[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_08[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_09" type="array">
+         <obj_property name="ElementShortName">port_out_09[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_09[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_10" type="array">
+         <obj_property name="ElementShortName">port_out_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_11" type="array">
+         <obj_property name="ElementShortName">port_out_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_12" type="array">
+         <obj_property name="ElementShortName">port_out_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_13" type="array">
+         <obj_property name="ElementShortName">port_out_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_14" type="array">
+         <obj_property name="ElementShortName">port_out_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/OUT_U/port_out_15" type="array">
+         <obj_property name="ElementShortName">port_out_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_out_15[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group195" type="group">
+      <obj_property name="label">RAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_computer/uut/memory_module/RAM_U/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/RAM_U/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/RAM_U/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/RAM_U/write_en" type="logic">
+         <obj_property name="ElementShortName">write_en</obj_property>
+         <obj_property name="ObjectShortName">write_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/RAM_U/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/RAM_U/RAM" type="array">
+         <obj_property name="ElementShortName">RAM[128:223][7:0]</obj_property>
+         <obj_property name="ObjectShortName">RAM[128:223][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/RAM_U/enable" type="logic">
+         <obj_property name="ElementShortName">enable</obj_property>
+         <obj_property name="ObjectShortName">enable</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group224" type="group">
+      <obj_property name="label">ROM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/address" type="array">
+         <obj_property name="ElementShortName">address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/enable" type="logic">
+         <obj_property name="ElementShortName">enable</obj_property>
+         <obj_property name="ObjectShortName">enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/YUKLE_A_SBT" type="array">
+         <obj_property name="ElementShortName">YUKLE_A_SBT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">YUKLE_A_SBT[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/YUKLE_A" type="array">
+         <obj_property name="ElementShortName">YUKLE_A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">YUKLE_A[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/YUKLE_B_SBT" type="array">
+         <obj_property name="ElementShortName">YUKLE_B_SBT[7:0]</obj_property>
+         <obj_property name="ObjectShortName">YUKLE_B_SBT[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/YUKLE_B" type="array">
+         <obj_property name="ElementShortName">YUKLE_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">YUKLE_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/KAYDET_A" type="array">
+         <obj_property name="ElementShortName">KAYDET_A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">KAYDET_A[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/KAYDET_B" type="array">
+         <obj_property name="ElementShortName">KAYDET_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">KAYDET_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/TOPLA_AB" type="array">
+         <obj_property name="ElementShortName">TOPLA_AB[7:0]</obj_property>
+         <obj_property name="ObjectShortName">TOPLA_AB[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/CIKAR_AB" type="array">
+         <obj_property name="ElementShortName">CIKAR_AB[7:0]</obj_property>
+         <obj_property name="ObjectShortName">CIKAR_AB[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/AND_AB" type="array">
+         <obj_property name="ElementShortName">AND_AB[7:0]</obj_property>
+         <obj_property name="ObjectShortName">AND_AB[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/OR_AB" type="array">
+         <obj_property name="ElementShortName">OR_AB[7:0]</obj_property>
+         <obj_property name="ObjectShortName">OR_AB[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/ARTTIR_A" type="array">
+         <obj_property name="ElementShortName">ARTTIR_A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ARTTIR_A[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/ARTTIR_B" type="array">
+         <obj_property name="ElementShortName">ARTTIR_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ARTTIR_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/DUSUR_A" type="array">
+         <obj_property name="ElementShortName">DUSUR_A[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DUSUR_A[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/DUSUR_B" type="array">
+         <obj_property name="ElementShortName">DUSUR_B[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DUSUR_B[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/ATLA" type="array">
+         <obj_property name="ElementShortName">ATLA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ATLA[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/ATLA_NEGATIFSE" type="array">
+         <obj_property name="ElementShortName">ATLA_NEGATIFSE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ATLA_NEGATIFSE[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/ATLA_POZITIFSE" type="array">
+         <obj_property name="ElementShortName">ATLA_POZITIFSE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ATLA_POZITIFSE[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/ATLA_ESITSE_SIFIR" type="array">
+         <obj_property name="ElementShortName">ATLA_ESITSE_SIFIR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ATLA_ESITSE_SIFIR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/ATLA_DEGILSE_SIFIR" type="array">
+         <obj_property name="ElementShortName">ATLA_DEGILSE_SIFIR[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ATLA_DEGILSE_SIFIR[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/ATLA_OVERFLOW_VARSA" type="array">
+         <obj_property name="ElementShortName">ATLA_OVERFLOW_VARSA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ATLA_OVERFLOW_VARSA[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/ATLA_OVERFLOW_YOKSA" type="array">
+         <obj_property name="ElementShortName">ATLA_OVERFLOW_YOKSA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ATLA_OVERFLOW_YOKSA[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/ATLA_ELDE_VARSA" type="array">
+         <obj_property name="ElementShortName">ATLA_ELDE_VARSA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ATLA_ELDE_VARSA[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/ATLA_ELDE_YOKSA" type="array">
+         <obj_property name="ElementShortName">ATLA_ELDE_YOKSA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ATLA_ELDE_YOKSA[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computer/uut/memory_module/ROM_U/ROM" type="array">
+         <obj_property name="ElementShortName">ROM[0:127][7:0]</obj_property>
+         <obj_property name="ObjectShortName">ROM[0:127][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CPU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/computer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'computer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/control_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control_unit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/data_memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'data_memory'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/data_path.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'data_path'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'memory'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/output_ports.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'output_ports'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/program_memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'program_memory'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/testbench/tb_computer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_computer'

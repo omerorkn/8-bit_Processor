@@ -1,0 +1,429 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Jan  5 19:07:20 2021
+# Process ID: 15332
+# Current directory: C:/Vivado Projects/processor_8bit/processor_8bit.runs/synth_1
+# Command line: vivado.exe -log computer.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source computer.tcl
+# Log file: C:/Vivado Projects/processor_8bit/processor_8bit.runs/synth_1/computer.vds
+# Journal file: C:/Vivado Projects/processor_8bit/processor_8bit.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source computer.tcl -notrace
+Command: synth_design -top computer -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9996 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 573.551 ; gain = 242.602
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'computer' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/computer.vhd:47]
+INFO: [Synth 8-3491] module 'CPU' declared at 'C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/CPU.vhd:6' bound to instance 'cpu_module' of component 'CPU' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/computer.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'CPU' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/CPU.vhd:18]
+INFO: [Synth 8-3491] module 'control_unit' declared at 'C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/control_unit.vhd:6' bound to instance 'control_unit_module' of component 'control_unit' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/CPU.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'control_unit' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/control_unit.vhd:28]
+INFO: [Synth 8-226] default block is never used [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/control_unit.vhd:88]
+INFO: [Synth 8-226] default block is never used [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/control_unit.vhd:214]
+INFO: [Synth 8-256] done synthesizing module 'control_unit' (1#1) [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/control_unit.vhd:28]
+INFO: [Synth 8-3491] module 'data_path' declared at 'C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/data_path.vhd:7' bound to instance 'data_path_module' of component 'data_path' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/CPU.vhd:108]
+INFO: [Synth 8-638] synthesizing module 'data_path' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/data_path.vhd:32]
+INFO: [Synth 8-3491] module 'ALU' declared at 'C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/ALU.vhd:6' bound to instance 'ALU_pm' of component 'ALU' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/data_path.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/ALU.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (2#1) [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/ALU.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'data_path' (3#1) [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/data_path.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'CPU' (4#1) [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/CPU.vhd:18]
+INFO: [Synth 8-3491] module 'memory' declared at 'C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/memory.vhd:6' bound to instance 'memory_module' of component 'memory' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/computer.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'memory' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/memory.vhd:52]
+INFO: [Synth 8-3491] module 'program_memory' declared at 'C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/program_memory.vhd:6' bound to instance 'ROM_U' of component 'program_memory' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/memory.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'program_memory' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/program_memory.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'program_memory' (5#1) [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/program_memory.vhd:15]
+INFO: [Synth 8-3491] module 'data_memory' declared at 'C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/data_memory.vhd:6' bound to instance 'RAM_U' of component 'data_memory' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/memory.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'data_memory' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/data_memory.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'data_memory' (6#1) [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/data_memory.vhd:17]
+INFO: [Synth 8-3491] module 'output_ports' declared at 'C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/output_ports.vhd:6' bound to instance 'OUT_U' of component 'output_ports' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/memory.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'output_ports' [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/output_ports.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'output_ports' (7#1) [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/output_ports.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'memory' (8#1) [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/memory.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'computer' (9#1) [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/computer.vhd:47]
+WARNING: [Synth 8-3331] design control_unit has unconnected port CCR_Result[3]
+WARNING: [Synth 8-3331] design control_unit has unconnected port CCR_Result[1]
+WARNING: [Synth 8-3331] design control_unit has unconnected port CCR_Result[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 646.957 ; gain = 316.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 646.957 ; gain = 316.008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 646.957 ; gain = 316.008
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'control_unit'
+INFO: [Synth 8-5546] ROM "write_en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "BUS1_Sel" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "CCR_Load" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "B_Load" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "A_Load" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PC_Inc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PC_Load" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IR_Load" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/ALU.vhd:30]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/ALU.vhd:30]
+INFO: [Synth 8-5546] ROM "port_out_00" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_01" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_02" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_03" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_04" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_05" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_06" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_07" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_08" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_09" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_10" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_11" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_12" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_13" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_14" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "port_out_15" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               s_fetch_0 |                            00000 |                            00000
+               s_fetch_1 |                            00001 |                            00001
+               s_fetch_2 |                            00010 |                            00010
+              s_decode_3 |                            00011 |                            00011
+             s_lda_imm_4 |                            00100 |                            00100
+             s_lda_imm_5 |                            00101 |                            00101
+             s_lda_imm_6 |                            00110 |                            00110
+             s_lda_dir_4 |                            00111 |                            00111
+             s_lda_dir_5 |                            01000 |                            01000
+             s_lda_dir_6 |                            01001 |                            01001
+             s_lda_dir_7 |                            01010 |                            01010
+             s_lda_dir_8 |                            01011 |                            01011
+             s_ldb_imm_4 |                            01100 |                            01100
+             s_ldb_imm_5 |                            01101 |                            01101
+             s_ldb_imm_6 |                            01110 |                            01110
+             s_ldb_dir_4 |                            01111 |                            01111
+             s_ldb_dir_5 |                            10000 |                            10000
+             s_ldb_dir_6 |                            10001 |                            10001
+             s_ldb_dir_7 |                            10010 |                            10010
+             s_ldb_dir_8 |                            10011 |                            10011
+             s_sta_dir_4 |                            10100 |                            10100
+             s_sta_dir_5 |                            10101 |                            10101
+             s_sta_dir_6 |                            10110 |                            10110
+             s_sta_dir_7 |                            10111 |                            10111
+              s_add_ab_4 |                            11000 |                            11000
+                 s_bra_4 |                            11001 |                            11001
+                 s_bra_5 |                            11010 |                            11010
+                 s_bra_6 |                            11011 |                            11011
+                 s_beq_4 |                            11100 |                            11100
+                 s_beq_5 |                            11101 |                            11101
+                 s_beq_6 |                            11110 |                            11110
+                 s_beq_7 |                            11111 |                            11111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'control_unit'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 646.957 ; gain = 316.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 23    
+	                4 Bit    Registers := 1     
++---RAMs : 
+	              768 Bit         RAMs := 1     
++---Muxes : 
+	   7 Input      9 Bit        Muxes := 3     
+	   7 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 27    
+	 128 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 16    
+	  41 Input      5 Bit        Muxes := 1     
+	  32 Input      2 Bit        Muxes := 1     
+	  32 Input      1 Bit        Muxes := 9     
+	   2 Input      1 Bit        Muxes := 19    
+	  16 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module control_unit 
+Detailed RTL Component Info : 
++---Muxes : 
+	  41 Input      5 Bit        Muxes := 1     
+	  32 Input      2 Bit        Muxes := 1     
+	  32 Input      1 Bit        Muxes := 9     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
++---Muxes : 
+	   7 Input      9 Bit        Muxes := 3     
+	   7 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module data_path 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 5     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 11    
+	   2 Input      1 Bit        Muxes := 1     
+Module program_memory 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	 128 Input      8 Bit        Muxes := 1     
+Module data_memory 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---RAMs : 
+	              768 Bit         RAMs := 1     
+Module output_ports 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 16    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+	  16 Input      8 Bit        Muxes := 16    
+	   2 Input      1 Bit        Muxes := 16    
+	  16 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4652] Swapped enable and write-enable on 1 RAM instances of RAM memory_module/RAM_U/RAM_reg to conserve power
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 859.977 ; gain = 529.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping	Report (see note below)
++------------+-----------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object                  | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-----------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|computer    | memory_module/RAM_U/RAM_reg | 128 x 8(READ_FIRST)    | W |   | 128 x 8(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++------------+-----------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 859.977 ; gain = 529.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++------------+-----------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object                  | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-----------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|computer    | memory_module/RAM_U/RAM_reg | 128 x 8(READ_FIRST)    | W |   | 128 x 8(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++------------+-----------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7053] The timing for the instance memory_module/RAM_U/RAM_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 859.977 ; gain = 529.027
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 859.977 ; gain = 529.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 859.977 ; gain = 529.027
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 859.977 ; gain = 529.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 859.977 ; gain = 529.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 859.977 ; gain = 529.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 859.977 ; gain = 529.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |     2|
+|3     |LUT1     |     1|
+|4     |LUT2     |     8|
+|5     |LUT3     |    22|
+|6     |LUT4     |    41|
+|7     |LUT5     |    61|
+|8     |LUT6     |   138|
+|9     |RAMB18E1 |     1|
+|10    |FDCE     |   174|
+|11    |FDRE     |     8|
+|12    |IBUF     |   130|
+|13    |OBUF     |   128|
++------+---------+------+
+
+Report Instance Areas: 
++------+------------------------+---------------+------+
+|      |Instance                |Module         |Cells |
++------+------------------------+---------------+------+
+|1     |top                     |               |   715|
+|2     |  cpu_module            |CPU            |   319|
+|3     |    control_unit_module |control_unit   |    51|
+|4     |    data_path_module    |data_path      |   268|
+|5     |      ALU_pm            |ALU            |    12|
+|6     |  memory_module         |memory         |   137|
+|7     |    OUT_U               |output_ports   |   128|
+|8     |    RAM_U               |data_memory    |     1|
+|9     |    ROM_U               |program_memory |     8|
++------+------------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 859.977 ; gain = 529.027
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 859.977 ; gain = 529.027
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 859.977 ; gain = 529.027
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 870.336 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 915.707 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+67 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 915.707 ; gain = 609.586
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 915.707 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Vivado Projects/processor_8bit/processor_8bit.runs/synth_1/computer.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file computer_utilization_synth.rpt -pb computer_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan  5 19:07:52 2021...

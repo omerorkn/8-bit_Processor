@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/ALU.vhd" \
+"../../../../../../Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/CPU.vhd" \
+"../../../../../../Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/computer.vhd" \
+"../../../../../../Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/control_unit.vhd" \
+"../../../../../../Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/data_memory.vhd" \
+"../../../../../../Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/data_path.vhd" \
+"../../../../../../Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/memory.vhd" \
+"../../../../../../Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/output_ports.vhd" \
+"../../../../../../Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/program_memory.vhd" \
+"../../../../../../Users/Ömer/Desktop/Coding/My VHDL and Verilog Works/VHDL/Projects/8-bit Processor/Docs/Kaynaklar/VHDL Kodlari/testbench/tb_computer.vhd" \
+
+# Do not sort compile order
+nosort
