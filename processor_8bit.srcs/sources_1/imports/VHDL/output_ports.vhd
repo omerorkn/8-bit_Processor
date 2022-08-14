@@ -1,21 +1,23 @@
---Author : Omer
+-- Author / Engineer : omerorkn
+
+-- Output Ports (Sub-module of Memory)
+------------------------------------------------------------------------------------------------------------------------------------------------
 library IEEE;
-use IEEE.std_logic_1164.all;
-use IEEE.numeric_std.all;
-use IEEE.std_logic_unsigned.all;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+use IEEE.STD_LOGIC_UNSIGNED.all;
 
 entity output_ports is
 	
 	port(
-			--Inputs
-			
+			--Input Ports
 			address :  in std_logic_vector(7 downto 0) ;
 			clk		:  in std_logic ;
 			rst		:  in std_logic ;
 			data_in :  in std_logic_vector(7 downto 0) ;
 			write_en : in std_logic ;
-			--Outputs
-			
+
+			--Output Ports
 			port_out_00 : out std_logic_vector(7 downto 0);
 			port_out_01 : out std_logic_vector(7 downto 0);
 			port_out_02 : out std_logic_vector(7 downto 0);
@@ -35,8 +37,7 @@ entity output_ports is
 		);
 end output_ports;
 
-
-architecture arch of output_ports is
+architecture rtl of output_ports is
 begin
 
 	process(clk,rst)
@@ -115,4 +116,4 @@ begin
 			end if;
 		end if;
 	end process;
-end architecture;
+end rtl;

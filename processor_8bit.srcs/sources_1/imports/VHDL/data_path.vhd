@@ -1,11 +1,15 @@
---Author : Omer
+-- Author / Engineer : omerorkn
+
+-- Data Path (Sub-module of CPU)
+------------------------------------------------------------------------------------------------------------------------------------------------
 library IEEE;
-use IEEE.std_logic_1164.all;
-use IEEE.numeric_std.all;
-use IEEE.std_logic_unsigned.all;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+use IEEE.STD_LOGIC_UNSIGNED.all;
 
 entity data_path is
-	port(--Inputs
+	port(
+			-- Input Ports
 			IR_Load 	: in  std_logic;
 			MAR_Load 	: in  std_logic;
 			PC_Load 	: in  std_logic;
@@ -20,7 +24,7 @@ entity data_path is
 			clk			: in  std_logic;
 			rst			: in  std_logic;
 	
-		--Outputs
+			-- Output Ports
 			IR 				:	out  std_logic_vector(7 downto 0);
 			CCR_Result 		:	out  std_logic_vector(3 downto 0);
 			to_memory		:	out  std_logic_vector(7 downto 0);
@@ -29,31 +33,31 @@ entity data_path is
 	);
 end data_path;
 
-architecture arch of data_path is
+architecture rtl of data_path is
 
+	component ALU is
+		port(	
+				--Input Ports
+				A 			: in std_logic_vector(7 downto 0);
+				B 			: in std_logic_vector(7 downto 0);
+				ALU_Sel 	: in std_logic_vector(2 downto 0);
 
-component ALU is
-	port(	--Inputs
-			A 			: in std_logic_vector(7 downto 0);
-			B 			: in std_logic_vector(7 downto 0);
-			ALU_Sel 	: in std_logic_vector(2 downto 0);
-			--Outputs
-			NZVC 			: out std_logic_vector(3 downto 0);
-			ALU_Result 		: out std_logic_vector(7 downto 0)
-	);
-end component;
+				--Output Ports
+				NZVC 			: out std_logic_vector(3 downto 0);
+				ALU_Result 		: out std_logic_vector(7 downto 0)
+		);
+	end component;
 
-
-signal IR_Reg	 	: std_logic_vector(7 downto 0);
-signal MAR 			: std_logic_vector(7 downto 0);
-signal PC 			: std_logic_vector(7 downto 0);
-signal A_Reg 		: std_logic_vector(7 downto 0);
-signal B_Reg 		: std_logic_vector(7 downto 0);
-signal CCR	 		: std_logic_vector(3 downto 0);
-signal CCR_in		: std_logic_vector(3 downto 0);
-signal BUS1 		: std_logic_vector(7 downto 0);
-signal BUS2 		: std_logic_vector(7 downto 0);
-signal ALU_Result	: std_logic_vector(7 downto 0);
+	signal IR_Reg	 	: std_logic_vector(7 downto 0);
+	signal MAR 			: std_logic_vector(7 downto 0);
+	signal PC 			: std_logic_vector(7 downto 0);
+	signal A_Reg 		: std_logic_vector(7 downto 0);
+	signal B_Reg 		: std_logic_vector(7 downto 0);
+	signal CCR	 		: std_logic_vector(3 downto 0);
+	signal CCR_in		: std_logic_vector(3 downto 0);
+	signal BUS1 		: std_logic_vector(7 downto 0);
+	signal BUS2 		: std_logic_vector(7 downto 0);
+	signal ALU_Result	: std_logic_vector(7 downto 0);
 
 begin 
 
@@ -71,6 +75,7 @@ begin
 	--IR--
 	process(clk,rst)
 	begin
+
 		if (rst = '1') then
 			IR_Reg <= (others => '0');
 		elsif (rising_edge(clk)) then
@@ -85,6 +90,7 @@ begin
 	--MAR--
 	process(clk,rst)
 	begin
+
 		if (rst = '1') then
 			MAR <= (others => '0');
 		elsif (rising_edge(clk)) then
@@ -94,12 +100,13 @@ begin
 			end if;	
 		end if;
 	end process;
+
 	address <= MAR;
-	
 	
 	--PC--
 	process(clk,rst)
 	begin
+
 		if (rst = '1') then
 			PC <= (others => '0');
 		elsif (rising_edge(clk)) then
@@ -114,6 +121,7 @@ begin
 	--A Register--
 	process(clk,rst)
 	begin
+
 		if (rst = '1') then
 			A_Reg <= (others => '0');
 		elsif (rising_edge(clk)) then
@@ -121,11 +129,13 @@ begin
 				A_Reg <= BUS2;
 			end if;	
 		end if;
+
 	end process;
 	
 	--B Register--
 	process(clk,rst)
 	begin
+
 		if (rst = '1') then
 			B_Reg <= (others => '0');
 		elsif (rising_edge(clk)) then
@@ -133,38 +143,39 @@ begin
 				B_Reg <= BUS2;
 			end if;	
 		end if;
+
 	end process;
 	
 	--ALU Port Map--
-ALU_pm: ALU port map
-				(	
-					A			=> B_Reg,
-					B			=> BUS1,
-					ALU_Sel		=> ALU_Sel,
-					NZVC		=> CCR_in,
-					ALU_Result	=> ALU_Result
-					
-				);
+	ALU_pm: ALU 
+	port map
+					(	
+						A			=> B_Reg,
+						B			=> BUS1,
+						ALU_Sel		=> ALU_Sel,
+						NZVC		=> CCR_in,
+						ALU_Result	=> ALU_Result
+						
+					);
+		
+		--CCR_Reg--
+		process(clk,rst)
+		begin
+		
+			if (rst = '1') then
+				CCR <= (others => '0');
+			elsif (rising_edge(clk)) then
+				if (CCR_Load = '1') then
+					CCR <= CCR_in;
+				
+				end if;	
+			end if;
+		
+		end process;
 	
-	
-	--CCR_Reg--
-	process(clk,rst)
-	begin
-		if (rst = '1') then
-			CCR <= (others => '0');
-		elsif (rising_edge(clk)) then
-			if (CCR_Load = '1') then
-				CCR <= CCR_in;
-			
-			end if;	
-		end if;
-	end process;
-	CCR_Result <= CCR;
-	
-	
-	--Data Path to Memory Signal
-	to_memory <= BUS1;
+		CCR_Result <= CCR;
+		
+		--Data Path to Memory signal
+		to_memory <= BUS1;
 
-	
-	
-end architecture;
+end rtl;

@@ -1,16 +1,20 @@
---Author : Omer
+-- Author / Engineer : omerorkn
+
+-- Memory Top Module
+------------------------------------------------------------------------------------------------------------------------------------------------
 library IEEE;
-use IEEE.std_logic_1164.all;
-use IEEE.numeric_std.all;
-use IEEE.std_logic_unsigned.all;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+use IEEE.STD_LOGIC_UNSIGNED.all;
 
 entity memory is
 	port(
+			-- Input Ports
 			clk			: in std_logic;
 			rst			: in std_logic;
 			address		: in std_logic_vector(7 downto 0);
 			data_in		: in std_logic_vector(7 downto 0);
-			write_en 	: in std_logic;	-- CPU tarafindan gonderilen kontrol sinyali / yaz emri
+			write_en 	: in std_logic;
 			port_in_00	: in std_logic_vector(7 downto 0);
 			port_in_01	: in std_logic_vector(7 downto 0);
 			port_in_02	: in std_logic_vector(7 downto 0);
@@ -27,9 +31,9 @@ entity memory is
 			port_in_13	: in std_logic_vector(7 downto 0);
 			port_in_14	: in std_logic_vector(7 downto 0);
 			port_in_15	: in std_logic_vector(7 downto 0);
-			-- Output:
+
+			-- Output Ports
 			data_out	: out std_logic_vector(7 downto 0);
-			--
 			port_out_00	: out std_logic_vector(7 downto 0);
 			port_out_01	: out std_logic_vector(7 downto 0);
 			port_out_02	: out std_logic_vector(7 downto 0);
@@ -49,40 +53,45 @@ entity memory is
 	);
 end memory;
 
+architecture rtl of memory is
 
-architecture arch of memory is
-
--- Program Bellegi:
+-- Program Memory (ROM):
 component program_memory is
 	port(
+			-- Input Ports
 			clk			: in std_logic;
 			address		: in std_logic_vector(7 downto 0);
-			-- Output:
+
+			-- Output Ports
 			data_out	: out std_logic_vector(7 downto 0)
 	);
 end component;
 
--- Veri Bellegi (RAM):
+-- Data Memory (RAM):
 component data_memory is
 	port(
+			-- Input Ports
 			clk			: in std_logic;
 			address		: in std_logic_vector(7 downto 0);
 			data_in		: in std_logic_vector(7 downto 0);
-			write_en 	: in std_logic;	-- CPU tarafindan gonderilen kontrol sinyali / yaz emri
-			-- Output:
+			write_en 	: in std_logic;
+
+			-- Output Ports
 			data_out	: out std_logic_vector(7 downto 0)
 	);
 end component;
 
--- Output Portlari:
+-- Output Ports:
 component output_ports is
 	port(
+			-- Input Ports
 			clk			: in std_logic;
 			rst			: in std_logic;
 			address		: in std_logic_vector(7 downto 0);
 			data_in		: in std_logic_vector(7 downto 0);
-			write_en 	: in std_logic;	-- CPU tarafindan gonderilen kontrol sinyali / yaz emri
-			-- Output:
+			write_en 	: in std_logic;
+
+			-- Output Ports
 			port_out_00	: out std_logic_vector(7 downto 0);
 			port_out_01	: out std_logic_vector(7 downto 0);
 			port_out_02	: out std_logic_vector(7 downto 0);
@@ -102,7 +111,7 @@ component output_ports is
 	);
 end component;
 
--- MUX sinyalleri
+-- MUX Signals
 signal rom_out	: std_logic_vector(7 downto 0);
 signal ram_out	: std_logic_vector(7 downto 0);
 
@@ -111,31 +120,38 @@ begin
 -- ROM:
 ROM_U: program_memory port map
 					(
+						-- Input Ports
 						clk			=> clk,
 					    address		=> address,
-					    -- Output:
+
+					    -- Output Ports
 						data_out	=> rom_out
 					);
 
 -- RAM:
 RAM_U: data_memory port map
 					(
+						-- Input Ports
 						clk			=> clk,
 					    address		=> address,
 						data_in     => data_in,
 						write_en    => write_en,
-					    -- Output:
+
+					    -- Output Ports
 						data_out	=> ram_out
 					);
--- OUTPUT PORTLARI:
+
+-- Output Ports:
 OUT_U: output_ports port map
 					(
+						-- Input Ports
 						clk			 => clk	,
 						rst			 => rst	,
 						address		 => address,
 						data_in		 => data_in	,
 						write_en 	 => write_en ,
-						-- Output:   => -- Output:  ,
+
+						-- Output Ports
 						port_out_00	 => port_out_00	,
 						port_out_01	 => port_out_01	,
 						port_out_02	 => port_out_02	,
@@ -155,54 +171,51 @@ OUT_U: output_ports port map
 	
 					);
 
---------------------------------------------
-
-	process(address, rom_out, ram_out,
+process(address, rom_out, ram_out,
 			port_in_00, port_in_01, port_in_02, port_in_03,
 			port_in_04, port_in_05, port_in_06, port_in_07,
 			port_in_07, port_in_08, port_in_09, port_in_10,
 			port_in_11, port_in_12, port_in_13, port_in_14, port_in_15)
-	begin
-		if(address >= x"00" and address <= x"7F") then
-			data_out <= rom_out;
-		elsif(address >= x"80" and address <= x"DF") then
-			data_out <= ram_out;
-		-- Input Routing
-		elsif(address = x"F0") then
-			data_out <= port_in_00;
-		elsif(address = x"F1") then
-			data_out <= port_in_01;
-		elsif(address = x"F2") then
-			data_out <= port_in_02;
-		elsif(address = x"F3") then
-			data_out <= port_in_03;
-		elsif(address = x"F4") then
-			data_out <= port_in_04;
-		elsif(address = x"F5") then
-			data_out <= port_in_05;
-		elsif(address = x"F6") then
-			data_out <= port_in_06;
-		elsif(address = x"F7") then
-			data_out <= port_in_07;
-		elsif(address = x"F8") then
-			data_out <= port_in_08;
-		elsif(address = x"F9") then
-			data_out <= port_in_09;
-		elsif(address = x"FA") then
-			data_out <= port_in_10;
-		elsif(address = x"FB") then
-			data_out <= port_in_11;
-		elsif(address = x"FC") then
-			data_out <= port_in_12;
-		elsif(address = x"FD") then
-			data_out <= port_in_13;
-		elsif(address = x"FE") then
-			data_out <= port_in_14;
-		elsif(address = x"FF") then
-			data_out <= port_in_15;
-		else
-			data_out <= x"00";
-		end if;
-	end process;
+begin
+	if(address >= x"00" and address <= x"7F") then
+		data_out <= rom_out;
+	elsif(address >= x"80" and address <= x"DF") then
+		data_out <= ram_out;
+	elsif(address = x"F0") then
+		data_out <= port_in_00;
+	elsif(address = x"F1") then
+		data_out <= port_in_01;
+	elsif(address = x"F2") then
+		data_out <= port_in_02;
+	elsif(address = x"F3") then
+		data_out <= port_in_03;
+	elsif(address = x"F4") then
+		data_out <= port_in_04;
+	elsif(address = x"F5") then
+		data_out <= port_in_05;
+	elsif(address = x"F6") then
+		data_out <= port_in_06;
+	elsif(address = x"F7") then
+		data_out <= port_in_07;
+	elsif(address = x"F8") then
+		data_out <= port_in_08;
+	elsif(address = x"F9") then
+		data_out <= port_in_09;
+	elsif(address = x"FA") then
+		data_out <= port_in_10;
+	elsif(address = x"FB") then
+		data_out <= port_in_11;
+	elsif(address = x"FC") then
+		data_out <= port_in_12;
+	elsif(address = x"FD") then
+		data_out <= port_in_13;
+	elsif(address = x"FE") then
+		data_out <= port_in_14;
+	elsif(address = x"FF") then
+		data_out <= port_in_15;
+	else
+		data_out <= x"00";
+	end if;
+end process;
 
-end architecture;
+end rtl;
